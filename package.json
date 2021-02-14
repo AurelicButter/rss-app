@@ -1,0 +1,27 @@
+{
+  "name": "rss-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A small application to watch RSS feeds with.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/butterstroke/rss-app"
+  },
+  "bugs": {
+    "url": "https://github.com/butterstroke/rss-app/issues"
+  },
+  "author": {
+    "name": "Frederick Katsura",
+    "email": "katsurinstudios@protonmail.ch"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "rss-parser": "^3.11.0",
+    "set-interval-async": "^1.0.34"
+  }
+}
